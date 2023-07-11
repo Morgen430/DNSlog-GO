@@ -9,7 +9,7 @@ FROM alpine AS runner
 WORKDIR /DNSlog-GO
 COPY --from=builder /DNSlog-GO/main .
 COPY --from=builder /DNSlog-GO/config.yaml .
-RUN  env
+RUN  cat /root/.docker/config.json
     
 EXPOSE 53/udp 8000
 ENTRYPOINT ["./main"]
