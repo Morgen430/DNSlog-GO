@@ -1,6 +1,6 @@
 简介
 ---
-DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带多用户WEB界面
+DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带多用户WEB界面222
 
 演示截图:
 
